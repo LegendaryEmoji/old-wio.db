@@ -6,7 +6,7 @@
 <br>#wio.db<br>
 ##Yüklemek İçin
 ```npm
-npm install  wio.db
+npm install  old-wio.db
 ```
 
 # NEWS
@@ -19,13 +19,13 @@ add TypeScript support.
 ##Nasıl Kullanılır? || how to use?
 # TypeScript
 ```typescript
-import db from "wio.db"
+import db from "old-wio.db"
 ```
 # NodeJs
 ```javascript
 const Discord = require ('discord.js')
 const client = new Discord.Client()
-const  db  = require('wio.db')
+const  db  = require('old-wio.db')
 db.backup('backup.json')
 client.on('ready',() => {
     console.log('Bot ready')
@@ -67,7 +67,6 @@ client.on('message',async message => {
 client.login('')
 ```
 ## Bana ulaşabileceğiniz yerler. || Bugs report
-[wio.db Support Server (Discord)](https://discord.gg/pSGUsGF)
 [İnstagram](https://www.instagram.com/wioenena.q/)
 
 # wio.db Kullanan Sunucular
