@@ -1,0 +1,36 @@
+{
+  "name": "old-wio.db",
+  "version": "4.0.10",
+  "author": "wioenena.q",
+  "main": "./lib/index.js",
+  "description": "Gözle okunabilir database modülü.",
+  "keywords": [
+    "quick.db",
+    "database",
+    "discord.js",
+    "wio.db",
+    "json"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.6.4",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "tslint": "^6.1.3"
+  },
+  "bugs": {
+    "url": "https://github.com/LegendaryEmoji/old-wio.db/issues"
+  },
+  "homepage": "https://github.com/LegendaryEmoji/old-wio.db#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LegendaryEmoji/old-wio.db.git"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "nodemon ./src/main.ts",
+    "test": "nodemon ./test.ts"
+  },
+  "types": "./lib/index.d.ts"
+}
